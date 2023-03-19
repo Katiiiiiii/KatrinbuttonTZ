@@ -1,0 +1,69 @@
+.borderbox{
+    margin: 50px;
+    padding:30px;
+    border: 4px solid brown;
+    border-radius: 15px;
+    background-color: lightblue;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../fonts/ofont.ru_Montserrat.ttf);
+    font-family: bebas;
+    src:url(../fonts/BebasNeue-Regular.ttf);
+}
+
+h1{
+    font-size: 48px;
+    font-family:"font";
+    font-weight: lighter;
+    line-height:15px;
+}
+
+
+h2{
+    font-size: 48px;
+    font-family: "bebas";
+    color: red;
+    line-height:15px;
+}
+
+a{
+    color:red;
+}
+
+.menu {
+    display: inline-block;
+    border: 1px solid rgb(33, 31, 161);
+    background: rgba(167, 135, 135, 0.432);
+    color: rgb(94, 44, 44);
+    padding: 2px 10px 5px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left:150px;
+    margin-right: 10px;
+}
+
+.menu:hover {
+    background-color: rgb(10, 21, 32);
+    color:rgb(207, 222, 231);
+}
+
+.vxod {
+    margin-right:150px;
+    display: inline-block;
+    border: 1px solid rgb(33, 31, 161);
+    background: rgba(167, 135, 135, 0.432);
+    color: rgb(94, 44, 44);
+    padding: 2px 10px 5px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    margin-left:150px;
+    margin-right: 10px;
+}
+
+.vxod:hover {
+    background-color: rgb(104, 0, 0);
+    color:blueviolet;
+}
